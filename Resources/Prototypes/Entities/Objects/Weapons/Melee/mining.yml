@@ -230,17 +230,17 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 6
-        Slash: 4
+        Blunt: 18 # 6
+        Slash: 12 # 4
     soundHit:
       collection: MetalThud
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 6
-        Slash: 2
-        Structural: 30
+        Blunt: 18 # 6
+        Slash: 6 # 2
+        Structural: 90 # 30
   - type: GunRequiresWield
   - type: DisarmMalus
   - type: Prying
@@ -258,10 +258,10 @@
   - type: MeleeWeapon
     autoAttack: true
     wideAnimationRotation: -135
-    attackRate: 2
+    attackRate: 4 # 2
     damage:
       types:
-        Slash: 12
+        Slash: 18 # 12
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     offset: -0.15,0.0
@@ -269,7 +269,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Slash: 10
+        Slash: 15 # 10
   - type: DisarmMalus
     malus: 0.225
   - type: ThrowingAngle
@@ -327,11 +327,11 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 3
-        Slash: 7
+        Blunt: 9 # 3
+        Slash: 21 # 7
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 2
-        Slash: 6
-        Structural: 20
+        Blunt: 6 # 2
+        Slash: 18 # 6
+        Structural: 60 # 20
