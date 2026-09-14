@@ -58,16 +58,16 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 40 # 10
-        Slash: 24 # 6
+        Blunt: 50 # 10
+        Slash: 30 # 6
     soundHit:
       collection: MetalThud
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 20 # 5
-        Slash: 20 # 5
-        Structural: 240 # 60
+        Blunt: 25 # 5
+        Slash: 25 # 5
+        Structural: 300 # 60
   - type: StaticPrice
     price: 2850
 
