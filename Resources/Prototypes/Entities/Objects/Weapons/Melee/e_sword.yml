@@ -41,15 +41,15 @@
         variation: 0.125
     activatedDamage:
       types:
-        Slash: 15
-        Heat: 15
-        Structural: 20
+        Slash: 30 # 15
+        Heat: 30 # 15
+        Structural: 40 # 20
   - type: MeleeWeapon
     wideAnimationRotation: -135
-    attackRate: 1
+    attackRate: 1.5 # 1
     damage:
       types:
-        Blunt: 4.5
+        Blunt: 9 # 4.5
   - type: Item
     size: Small
   - type: UseDelay
@@ -146,8 +146,8 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 10
-            Heat: 10
+            Slash: 20 # 10
+            Heat: 20 # 10
     deactivatedSecret: true
   - type: ItemToggleActiveSound
     activeSound: null
@@ -169,11 +169,11 @@
         map: [ "blade" ]
   - type: MeleeWeapon
     wideAnimationRotation: 145
-    attackRate: 1
+    attackRate: 1.5 # 1
     hidden: true
     damage:
       types:
-        Blunt: 1
+        Blunt: 2 # 1
   - type: Item
     size: Tiny
     sprite: Objects/Weapons/Melee/e_dagger_loud.rsi
@@ -210,8 +210,8 @@
         variation: 0.250
     activatedDamage:
       types:
-        Slash: 10
-        Heat: 10
+        Slash: 20 # 10
+        Heat: 20 # 10
   - type: ComponentToggler
     components:
     - type: Sharp
@@ -241,11 +241,11 @@
     netsync: false
   - type: MeleeWeapon
     wideAnimationRotation: 145
-    attackRate: 1
+    attackRate: 1.5 # 1
     hidden: true
     damage:
       types:
-        Blunt: 1
+        Blunt: 2 # 1
   - type: Tag
     tags:
     - Write
@@ -279,8 +279,8 @@
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
-            Slash: 10
-            Heat: 12
+            Slash: 30 # 10
+            Heat: 36 # 12
     deactivatedSecret: true
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
@@ -319,9 +319,9 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 12
-            Heat: 12
-            Structural: 15
+            Slash: 24 # 12
+            Heat: 24 # 12
+            Structural: 30 # 15
   - type: ItemToggleActiveSound
     activeSound: null
   - type: ComponentToggler
@@ -335,7 +335,7 @@
     wieldSound: null # esword light sound instead
   - type: MeleeWeapon
     wideAnimationRotation: -135
-    attackRate: 1.5
+    attackRate: 3 # 1.5
     angle: 100
     damage:
       types:
@@ -370,7 +370,7 @@
     range: 2.0
     damage:
       types:
-        Blunt: 4.5
+        Blunt: 9 # 4.5
   - type: ItemToggleMeleeWeapon
     activatedSoundOnSwing:
       path: /Audio/Weapons/eblademiss.ogg
@@ -379,9 +379,9 @@
         variation: 0.250
     activatedDamage:
       types:
-        Slash: 20
-        Heat: 20
-        Structural: 20
+        Slash: 60 # 20
+        Heat: 60 # 20
+        Structural: 60 # 20
   - type: MeleeRequiresWield
   - type: HeldSpeedModifier #slowdown is what balances this compared to a dsword
     walkModifier: 0.6
