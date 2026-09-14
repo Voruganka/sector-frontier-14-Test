@@ -21,8 +21,8 @@
         - MobState
     damage:
       types:
-        Blunt: 120 # 40
-        Slash: 30 # 10
+        Blunt: 80 # 40
+        Slash: 20 # 10
   - type: Projectile
     impactEffect: BulletImpactEffectKinetic
     damage:
@@ -54,20 +54,20 @@
     capacity: 1
     count: 1
   - type: MeleeWeapon
-    attackRate: 1.5
+    attackRate: 1 # 1.5
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 50 # 10
-        Slash: 30 # 6
+        Blunt: 60 # 10
+        Slash: 36 # 6
     soundHit:
       collection: MetalThud
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 25 # 5
-        Slash: 25 # 5
-        Structural: 300 # 60
+        Blunt: 30 # 5
+        Slash: 30 # 5
+        Structural: 360 # 60
   - type: StaticPrice
     price: 2850
 
