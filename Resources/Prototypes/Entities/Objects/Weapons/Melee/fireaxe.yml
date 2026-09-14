@@ -20,17 +20,17 @@
     damage:
       types:
         # axes are kinda like sharp hammers, you know?
-        Blunt: 5
-        Slash: 10
-        Structural: 10
+        Blunt: 15 # 5
+        Slash: 30 # 10
+        Structural: 30 # 10
     soundHit:
       collection: MetalThud
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Slash: 10
-        Structural: 40
+        Slash: 30 # 10
+        Structural: 120 # 40
   - type: Item
     size: Ginormous
   - type: Clothing
