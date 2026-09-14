@@ -38,7 +38,7 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Piercing: 12
+        Piercing: 36 # 12
     angle: 0
     animation: WeaponArcThrust
     soundHit:
@@ -46,7 +46,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 15
+        Piercing: 45 # 15
   - type: Item
     size: Ginormous
   - type: Clothing
@@ -76,7 +76,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Piercing: 4
+        Piercing: 12 # 4
   # Lua start
   - type: Repairable
     fuelCost: 1
@@ -130,11 +130,11 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Piercing: 15
+        Piercing: 45 # 15
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 18
+        Piercing: 54 # 18
   - type: Construction
     graph: SpearReinforced
 
@@ -150,11 +150,11 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Piercing: 18
+        Piercing: 54 # 18
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 21
+        Piercing: 63 # 21
   - type: Construction
     graph: SpearPlasma
 
@@ -170,13 +170,13 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Piercing: 10
-        Radiation: 8
+        Piercing: 30 # 10
+        Radiation: 24 # 8
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 12
-        Radiation: 9
+        Piercing: 36 # 12
+        Radiation: 27 # 9
   - type: Construction
     graph: SpearUranium
 
@@ -194,7 +194,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 30 #excess damage avoids cost of spawning entities.
+        damage: 90 # 30 #excess damage avoids cost of spawning entities.
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -227,10 +227,10 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Piercing: 18 #same as plasma spear
+        Piercing: 54 # 18 #same as plasma spear
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 25 #throw dmg enough to two-shot carp
+        Piercing: 75 # 25 #throw dmg enough to two-shot carp
   - type: Construction
     graph: SpearSharkMinnow
