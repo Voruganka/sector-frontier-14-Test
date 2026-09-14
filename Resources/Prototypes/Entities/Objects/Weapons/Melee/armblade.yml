@@ -14,12 +14,12 @@
     soundHit:
       collection: AlienClaw
     wideAnimationRotation: 90
-    attackRate: 1
+    attackRate: 1.5 # 1
     damage:
       types: # Same as energy sword, but slash/pierce instead of slash/heat
-        Slash: 15
-        Piercing: 15
-        Structural: 20
+        Slash: 30 # 15
+        Piercing: 30 # 15
+        Structural: 40 # 20
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/armblade.rsi
